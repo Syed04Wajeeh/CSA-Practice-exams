@@ -1,0 +1,785 @@
+[
+  {
+    "id": 1,
+    "text": "Which of the following formatters is used to display the different stages in a linear process flow?",
+    "options": [
+      "None of the listed answers",
+      "Approval summarizer formatter",
+      "Process flow formatter",
+      "Parent breadcrumbs formatter"
+    ],
+    "correctAnswers": [
+      "Process flow formatter"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 2,
+    "text": "You need to create a new field in a table. What is the field type that you should use if your field will contain letters, numbers, and special characters?",
+    "options": [
+      "Text",
+      "Text Box",
+      "Data",
+      "String"
+    ],
+    "correctAnswers": [
+      "String"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 3,
+    "text": "Which of the following can be used to define conditions that determine which users can create, read, write and retire knowledge base article?",
+    "options": [
+      "Knowledge Roles",
+      "ACL",
+      "User Criteria",
+      "Article Permissions",
+      "KB Permissions",
+      "HR Criteria"
+    ],
+    "correctAnswers": [
+      "User Criteria"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 4,
+    "text": "Roles can be assigned to groups but they cannot be assigned to individual users.",
+    "options": [
+      "False",
+      "TRUE"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 5,
+    "text": "Which table is used to store CI relationship data?",
+    "options": [
+      "ci_relation",
+      "cmdb_ci_rel",
+      "cmdb_relation",
+      "ci_rel",
+      "cmdb_rel_ci"
+    ],
+    "correctAnswers": [
+      "cmdb_rel_ci"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 6,
+    "text": "What is a configuration Item?",
+    "options": [
+      "Any record that refers to configuration or settings",
+      "Any component that needs to be managed in order to deliver services",
+      "Any configuration record that determines the behavior of the database",
+      "Any component in ServiceNow is considered a configuration item"
+    ],
+    "correctAnswers": [
+      "Any component that needs to be managed in order to deliver services"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 7,
+    "text": "Which of the following knowledge base workflows immediately retires an article without needing an approval?",
+    "options": [
+      "Knowledge - Retire Knowledge",
+      "Knowledge - Retire Article",
+      "Knowledge - Direct Retire",
+      "Knowledge - Instant Retire"
+    ],
+    "correctAnswers": [
+      "Knowledge - Instant Retire"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 8,
+    "text": "By default, what is the maximum number of activities displayed in the history tab of the application navigator?",
+    "options": [
+      "50",
+      "100",
+      "124",
+      "40",
+      "30"
+    ],
+    "correctAnswers": [
+      "30"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 9,
+    "text": "You need to add a button to one of your forms. Which of the following should you use?",
+    "options": [
+      "Data Policy",
+      "UI Action",
+      "Button",
+      "UI Policy"
+    ],
+    "correctAnswers": [
+      "UI Action"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 10,
+    "text": "Which of the following UI Actions is useful if you would like to apply the \"Save As\" functionality?",
+    "options": [
+      "Submit",
+      "Save",
+      "Update",
+      "Insert"
+    ],
+    "correctAnswers": [
+      "Insert"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 11,
+    "text": "Which table is used to store groups data?",
+    "options": [
+      "user_group",
+      "sys_group",
+      "group",
+      "sys_user_group"
+    ],
+    "correctAnswers": [
+      "sys_user_group"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 12,
+    "text": "Which of the following statements is NOT true regarding configuration items",
+    "options": [
+      "Software applications and business services are considered configuration items",
+      "Configuration items can be tangible or intangible",
+      "Relationship can be built between configuration items",
+      "CMDB consists of a static list of configuration items"
+    ],
+    "correctAnswers": [
+      "CMDB consists of a static list of configuration items"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 13,
+    "text": "You are importing data from an excel sheet into the Incident table. The Incident table already contains data. You want to make sure that the import doesn't result in duplicate records. What should you do?",
+    "options": [
+      "Uncheck the \"Allow Duplicates\" checkbox in the Transform Map form",
+      "In the Transform Map form, add a new record in the Compare related list to specify the comparison with Title column",
+      "Set the coalesce to Title field",
+      "Add a business rule to run after insertion. The business rule should delete the inserted record if it is a duplicate"
+    ],
+    "correctAnswers": [
+      "Set the coalesce to Title field"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 14,
+    "text": "If a session requests access to data in a certain table, what happens if the user passes the table ACL rule but fails the field rule?",
+    "options": [
+      "The user will be granted access to the table but won't see the field which he doesn't have access to",
+      "None of the listed answers",
+      "The user is denied access to the entire table",
+      "The user is granted access to the entire table because the table ACL rule will override the field ACL rule"
+    ],
+    "correctAnswers": [
+      "The user will be granted access to the table but won't see the field which he doesn't have access to"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 15,
+    "text": "Which of the following features helps users see reasonable relationships between configuration items?",
+    "options": [
+      "CI Relationship Wizard",
+      "CMDB Relationship Assistant",
+      "CI Relationship Editor",
+      "CMDB Relationship Editor",
+      "CI Relationship Assistant"
+    ],
+    "correctAnswers": [
+      "CI Relationship Editor"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 16,
+    "text": "The Import Set Table acts as a staging table, but the data will eventually be stored somewhere else.",
+    "options": [
+      "True",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 17,
+    "text": "Which of the following can be used to automate business logic for a particular process such as approvals, tasks, notifications, etc...",
+    "options": [
+      "Logic Builder",
+      "Process Designer",
+      "Logic Designer",
+      "Flow Designer",
+      "Approvals Flow"
+    ],
+    "correctAnswers": [
+      "Flow Designer"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 18,
+    "text": "You are importing data. Which of the following statements best describes what happens when a set of fields are coalesced?",
+    "options": [
+      "If a match is found using the coalesce fields, the system creates a new record based on the information being imported",
+      "If a match is not found using the coalesce fields, the system does not create a Transform Map",
+      "If a match is found using the coalesce fields, no record is created but rather the existing record is updated with the information being imported",
+      "If a match is NOT found using the coalesce fields, no record is created but rather the existing record is updated with the information being imported"
+    ],
+    "correctAnswers": [
+      "If a match is found using the coalesce fields, no record is created but rather the existing record is updated with the information being imported"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 19,
+    "text": "Which of the following should you use to search for information across applications and records?",
+    "options": [
+      "Filter Navigator",
+      "Service Portal Search",
+      "Knowledge Base Search",
+      "Global Search"
+    ],
+    "correctAnswers": [
+      "Global Search"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 20,
+    "text": "Which of the following are valid data sources for import sets? (select all that apply)",
+    "options": [
+      "JDBC",
+      "XML Files",
+      "HTTP",
+      "CSV Files",
+      "Excel files"
+    ],
+    "correctAnswers": [
+      "JDBC",
+      "XML Files",
+      "HTTP",
+      "CSV Files",
+      "Excel files"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 21,
+    "text": "Having an up-to-date CMDB has a lot of benefits. Which of the following is NOT a benefit one of them?",
+    "options": [
+      "Facilitating quick analysis of change impact",
+      "Locating failed changes and associated incidents",
+      "Helping in reducing the downtime",
+      "Automatically resolving incidents"
+    ],
+    "correctAnswers": [
+      "Automatically resolving incidents"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 22,
+    "text": "What is common way of testing functionality for different roles?",
+    "options": [
+      "Private account",
+      "Elevate Roles",
+      "Impersonate user",
+      "Escalated Privileges"
+    ],
+    "correctAnswers": [
+      "Impersonate user"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 23,
+    "text": "Which of the following is an example of knowledge base contextual search?",
+    "options": [
+      "In the service portal, you can search for articles using the search text box",
+      "When viewing a knowledge base article, it will show you similar articles",
+      "None of the listed answers",
+      "When creating an incident, it will suggest relevant articles"
+    ],
+    "correctAnswers": [
+      "When creating an incident, it will suggest relevant articles"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 24,
+    "text": "Which of the following statements is correct regarding fulfiller and approver users?",
+    "options": [
+      "Fulfiller and approvers only have the approver_user role",
+      "Fulfiller users only have the itil role",
+      "Approver users have the itil and approver_user roles",
+      "Approver users only have the approver_user role",
+      "Fulfiller users have the itil and approver_user roles"
+    ],
+    "correctAnswers": [
+      "Fulfiller users have the itil and approver_user roles"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 25,
+    "text": "Which of the following statements is most accurate when it comes to how the system evaluates ACLs when a session requests access a record?",
+    "options": [
+      "A user must pass both table and field ACL rules to access a record",
+      "A user must at least pass the table ACL rule to access the record",
+      "A user must pass either the table or the field ACL rules to access the record",
+      "A user must at least pass the field ACL rule to access the record"
+    ],
+    "correctAnswers": [
+      "A user must at least pass the table ACL rule to access the record"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 26,
+    "text": "Which one of the following statements is correct regarding the difference between Save button and Update button?",
+    "options": [
+      "Save applies the input validations before saving the record while Update skips the input validations",
+      "Save allows the user to remain on the same record while Update returns the user to the previously viewed record",
+      "Update allows the user to remain on the same record while Save returns the user to the previously viewed record",
+      "Save is used to insert new records while Update is used to update existing records"
+    ],
+    "correctAnswers": [
+      "Save is used to insert new records while Update is used to update existing records"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 27,
+    "text": "What does the wildcard \"*abc\" mean?",
+    "options": [
+      "It will retrieve all results that contain \"abc\"",
+      "It will retrieve all results that are exactly \"abc\"",
+      "It will retrieve all results that start with \"abc\"",
+      "It will retrieve all results that end with \"abc\""
+    ],
+    "correctAnswers": [
+      "It will retrieve all results that end with \"abc\""
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 28,
+    "text": "If you need to display information in a form that is not a field in the record, what element should you add?",
+    "options": [
+      "Reference Field",
+      "Related Field",
+      "Formatter",
+      "Reference"
+    ],
+    "correctAnswers": [
+      "Formatter"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 29,
+    "text": "Which form of storage is used to store data in ServiceNow?",
+    "options": [
+      "Flat-file database",
+      "Relational database",
+      "No-Sql database",
+      "Binary files"
+    ],
+    "correctAnswers": [
+      "Relational database"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 30,
+    "text": "___________ delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the Now Platform.",
+    "options": [
+      "Workspace",
+      "Employee Service Center",
+      "Service Portal",
+      "The Next Experience UI"
+    ],
+    "correctAnswers": [
+      "The Next Experience UI"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 31,
+    "text": "What is the minimum role needed to create import sets?",
+    "options": [
+      "itil",
+      "security_admin",
+      "admin",
+      "import_admin"
+    ],
+    "correctAnswers": [
+      "import_admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 32,
+    "text": "Each organization receives one instance (production) and they have the option to obtain 2 other instances for development and testing.",
+    "options": [
+      "TRUE",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 33,
+    "text": "Which table can be used to modify the configuration related to the maximum number of activities displayed in the history tab of the application navigator?",
+    "options": [
+      "sys_configuration",
+      "sys_properties",
+      "sys_system",
+      "sys_config"
+    ],
+    "correctAnswers": [
+      "sys_properties"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 34,
+    "text": "In ServiceNow Explorer, you need to see a list of files that comprise your application. Which of the following should you use?",
+    "options": [
+      "File Explorer",
+      "Source Code Manager",
+      "Studio Manager",
+      "Studio Explorer",
+      "Application Explorer"
+    ],
+    "correctAnswers": [
+      "Application Explorer"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 35,
+    "text": "Which table is used to store users data?",
+    "options": [
+      "sys_user",
+      "user",
+      "users",
+      "system_user"
+    ],
+    "correctAnswers": [
+      "sys_user"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 36,
+    "text": "UI Policies execute on the client side.",
+    "options": [
+      "True",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 37,
+    "text": "Every record is identified by a 32-character, globally unique ID, which is called ________.",
+    "options": [
+      "number",
+      "id",
+      "sys_id",
+      "rec_id",
+      "sys_num",
+      "unique_id"
+    ],
+    "correctAnswers": [
+      "sys_id"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 38,
+    "text": "Which of the following roles is the minimum role required to be able to access My Work and My Group Work modules?",
+    "options": [
+      "itil_admin",
+      "admin",
+      "itil",
+      "problem_manager",
+      "fulfiller"
+    ],
+    "correctAnswers": [
+      "itil"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 39,
+    "text": "In ServiceNow fulfillment view, in which part of the screen do the forms get displayed?",
+    "options": [
+      "Banner Frame",
+      "Application Frame",
+      "Application Navigator",
+      "Content Frame"
+    ],
+    "correctAnswers": [
+      "Content Frame"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 40,
+    "text": "Which of the following roles is required to manage more than one knowledge base?",
+    "options": [
+      "kb_manager",
+      "kb_controller",
+      "knowledge_admin",
+      "knowledge_manager",
+      "kb_admin"
+    ],
+    "correctAnswers": [
+      "knowledge_admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 41,
+    "text": "Which of the following statements best describes the function of \"My Groups Work\" module?",
+    "options": [
+      "List of all active tasks assigned to one of my groups",
+      "List of all active tasks assigned to one of my groups but the \"assigned to\" is empty",
+      "List of approval requests assigned to one of my groups",
+      "List of incidents assigned to one of my groups"
+    ],
+    "correctAnswers": [
+      "List of all active tasks assigned to one of my groups but the \"assigned to\" is empty"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 42,
+    "text": "How to show the visual task board view for tasks list?",
+    "options": [
+      "Click on the gear icon in the top banner and select the checkbox \"Show Visual Task Board\"",
+      "Right-click on the list header and select \"Show Visual Task Board\"",
+      "Click on the gear icon in the tasks list and select the checkbox \"Show Visual Task Board\"",
+      "Right-click on any of the columns and select \"Show Visual Task Board\""
+    ],
+    "correctAnswers": [
+      "Right-click on any of the columns and select \"Show Visual Task Board\""
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 43,
+    "text": "UI Policy is applied on all data input no matter what the channel is, including web form, import sets, ---etc.",
+    "options": [
+      "False",
+      "TRUE"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 44,
+    "text": "In the context of importing data, what does it mean when you specify a field as a coalesce?",
+    "options": [
+      "The field will be considered the display field for the target table",
+      "The field will be ignored when importing data",
+      "The imported data will be sorted on this field",
+      "The field will be used as a unique key during imports"
+    ],
+    "correctAnswers": [
+      "The field will be used as a unique key during imports"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 45,
+    "text": "Which technique is used to access information from referenced fields from related tables?",
+    "options": [
+      "Dot Walking",
+      "Dot navigation",
+      "Field navigator",
+      "Table Walking"
+    ],
+    "correctAnswers": [
+      "Dot Walking"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 46,
+    "text": "Which of the following can be used to integrate flow designer with other instances and 3rd party applications?",
+    "options": [
+      "Application Link",
+      "Connector",
+      "Mid Server",
+      "Integration Hub"
+    ],
+    "correctAnswers": [
+      "Integration Hub"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 47,
+    "text": "Which of the following can be useful if you want to restrict certain users from executing scripts on a tables?",
+    "options": [
+      "Client Scripts",
+      "UI Policy",
+      "Data Policy",
+      "ACL"
+    ],
+    "correctAnswers": [
+      "ACL"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 48,
+    "text": "Which of the following is useful when your users need to order more than one item together?",
+    "options": [
+      "Order Guide",
+      "Variable",
+      "Record Producer",
+      "Catalog Item"
+    ],
+    "correctAnswers": [
+      "Order Guide"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 49,
+    "text": "Which of the following is useful if you have a set of fields that needs to be used in multiple record producers?",
+    "options": [
+      "User Control",
+      "Fields Set",
+      "Variable Set",
+      "Fields Container",
+      "Variables Container"
+    ],
+    "correctAnswers": [
+      "Variable Set"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 50,
+    "text": "Which of the following are supported types of client scripts? (select all that apply)",
+    "options": [
+      "onChange",
+      "onLoad",
+      "onClick",
+      "onAction",
+      "onCellEdit",
+      "onMouseOver"
+    ],
+    "correctAnswers": [
+      "onChange",
+      "onLoad",
+      "onCellEdit"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 51,
+    "text": "Every user can be added to only one group.",
+    "options": [
+      "TRUE",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 52,
+    "text": "Which section in the task form shows the full history of updates and comments made on the task?",
+    "options": [
+      "Archive",
+      "Updates List",
+      "Activity",
+      "Notes",
+      "History"
+    ],
+    "correctAnswers": [
+      "Activity"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 53,
+    "text": "ServiceNow instance can be hosted on the cloud or on-premises.",
+    "options": [
+      "True",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 54,
+    "text": "Which of the following is captured in update sets? (select all that apply)",
+    "options": [
+      "Client Scripts",
+      "Business Rules",
+      "Modified Data Records",
+      "New Data Records",
+      "Tasks",
+      "Fields"
+    ],
+    "correctAnswers": [
+      "Client Scripts",
+      "Business Rules",
+      "Fields"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 55,
+    "text": "What is the Task table name?",
+    "options": [
+      "sys_task",
+      "system_task",
+      "task",
+      "sys_request"
+    ],
+    "correctAnswers": [
+      "task"
+    ],
+    "multipleChoice": false
+  }
+]

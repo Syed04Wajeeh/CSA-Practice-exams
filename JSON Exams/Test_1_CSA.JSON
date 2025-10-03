@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "text": "What data formats can IntegrationHub parse?",
+    "options": [
+      "Only XML responses",
+      "Both XML and JSON responses",
+      "Only JSON responses"
+    ],
+    "correctAnswers": [
+      "Both XML and JSON responses"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 2,
+    "text": "Task table is a \"___\" table. Fill in the blank with the right option.",
+    "options": [
+      "Base",
+      "Extended",
+      "Custom",
+      "Child"
+    ],
+    "correctAnswers": [
+      "Base"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 3,
+    "text": "What is the purpose of a formatter in ServiceNow instance? Select one of the following.",
+    "options": [
+      "Formatter allows you to populate fields automatically",
+      "Formatter is a form element used to display information that is not a field in the record",
+      "A formatter allows you to configure applications on your instance",
+      "Formatter is a set of conditions applied to a table to help find and work with data"
+    ],
+    "correctAnswers": [
+      "Formatter is a form element used to display information that is not a field in the record"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 4,
+    "text": "On the ServiceNow instance, where does the global text search appear?",
+    "options": [
+      "Content Area",
+      "Left Navigation Pane",
+      "Banner"
+    ],
+    "correctAnswers": [
+      "Banner"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 5,
+    "text": "Which of the below is not a list interface element?",
+    "options": [
+      "Fields",
+      "Title bar",
+      "Column headings",
+      "Gauge"
+    ],
+    "correctAnswers": [
+      "Gauge"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 6,
+    "text": "Which of the following is a best example of Contextual Security in ServiceNow?",
+    "options": [
+      "Business rules",
+      "Data Policy",
+      "ACL"
+    ],
+    "correctAnswers": [
+      "ACL"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 7,
+    "text": "Which protocol is used to send outbound emails from ServiceNow?",
+    "options": [
+      "IMAP",
+      "SMTP"
+    ],
+    "correctAnswers": [
+      "SMTP"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 8,
+    "text": "A variable Set is a modular unit of variables that \"CAN BE\" shared between catalog items. True or False?",
+    "options": [
+      "TRUE",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "TRUE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 9,
+    "text": "Which one of the statements below describes the relationship between the incident table and task table?",
+    "options": [
+      "The incident table is the parent of the task",
+      "The incident table extends the task table",
+      "The task table extends the incident table",
+      "The task table is the child of the incident table"
+    ],
+    "correctAnswers": [
+      "The incident table extends the task table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 10,
+    "text": "Which module in the service catalog application is responsible for creating items?",
+    "options": [
+      "Maintain items",
+      "Maintain dynamic categories",
+      "Maintain category",
+      "Items"
+    ],
+    "correctAnswers": [
+      "Maintain items"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 11,
+    "text": "Which of the following represent \"One-to-Many\" relationship fields?",
+    "options": [
+      "Relationship used to build SLA conditions",
+      "Reference Fields, Glide List, and Document ID Fields",
+      "Add users to groups that have been assigned the desired role",
+      "SLA Definition, Task SLA, SLA Workflow, SLA Automation"
+    ],
+    "correctAnswers": [
+      "Reference Fields, Glide List, and Document ID Fields"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 12,
+    "text": "Which technique is used to get information from a series of referenced fields from different tables?",
+    "options": [
+      "Record-Hopping",
+      "Dot-Walking",
+      "Table-Walking"
+    ],
+    "correctAnswers": [
+      "Dot-Walking"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 13,
+    "text": "Which of the below components runs on server side on ServiceNow instance? Select all that apply.",
+    "options": [
+      "UI",
+      "Script Include",
+      "Business Rule",
+      "UI Policy",
+      "Client Script",
+      "Data Policy"
+    ],
+    "correctAnswers": [
+      "Script Include",
+      "Business Rule",
+      "Data Policy"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 14,
+    "text": "Which OOB support will help you to avoid creating duplicates while importing data?",
+    "options": [
+      "Transform Script",
+      "Coalesce Field",
+      "Transform Field",
+      "sys_id"
+    ],
+    "correctAnswers": [
+      "Coalesce Field"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 15,
+    "text": "Which table stores information about CI relationship existing on a ServiceNow instance?",
+    "options": [
+      "cmdb_ci_item_rel",
+      "cmdb_rel_ci",
+      "cmdb_rel",
+      "cmdb_ci_rel"
+    ],
+    "correctAnswers": [
+      "cmdb_rel_ci"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 16,
+    "text": "From the below options, please choose the correct definition of \"inactivity monitor\" in ServiceNow instance.",
+    "options": [
+      "It is used to enhance the system logs. It provides more information on the duration of transactions between the client and the server.",
+      "It triggers an event for a task record if the task is inactive for a certain period of time. If the task remains inactive, the monitor repeats at regular intervals."
+    ],
+    "correctAnswers": [
+      "It triggers an event for a task record if the task is inactive for a certain period of time. If the task remains inactive, the monitor repeats at regular intervals."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 17,
+    "text": "Can we coalesce multiple fields in a table for given transform map?",
+    "options": [
+      "No. Only 1 field per table can be coalesced",
+      "Yes"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 18,
+    "text": "Does ServiceNow support table rotation?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 19,
+    "text": "Which of the following statements holds true for Service Catalog categories?",
+    "options": [
+      "Users with the admin or catalog_admin roles can view categories only if there is an active item in the category and Availability is set to either Desktop or Both.",
+      "Users with the admin or cat_admin roles can view categories only if there is an active item in the category and Availability is set to either Desktop or Both."
+    ],
+    "correctAnswers": [
+      "Users with the admin or catalog_admin roles can view categories only if there is an active item in the category and Availability is set to either Desktop or Both."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 20,
+    "text": "What purpose does Client Transaction Time plugin serve in ServiceNow?",
+    "options": [
+      "It enables to log a message in ServiceNow.",
+      "It enhances the system logs by providing additional information about the durations of transactions",
+      "It deletes client transactions details."
+    ],
+    "correctAnswers": [
+      "It enhances the system logs by providing additional information about the durations of transactions"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 21,
+    "text": "Which of the following statements is true about ServiceNow LDAP?",
+    "options": [
+      "ServiceNow LDAP has only read access to customers AD",
+      "ServiceNow LDAP has read and write access to customers AD"
+    ],
+    "correctAnswers": [
+      "ServiceNow LDAP has only read access to customers AD"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 22,
+    "text": "Which is the parent table for incident, problem, change in an ServiceNow instance?",
+    "options": [
+      "sla",
+      "task",
+      "cmdb_ci",
+      "cmdb"
+    ],
+    "correctAnswers": [
+      "task"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 23,
+    "text": "Which of the following is not an example of a UI action?",
+    "options": [
+      "Form buttons",
+      "List buttons",
+      "Search",
+      "Related links"
+    ],
+    "correctAnswers": [
+      "Search"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 24,
+    "text": "What is the master table that contains a record for each table in the database?",
+    "options": [
+      "sys_master_db table",
+      "sys_master_object table",
+      "sys_db_object table"
+    ],
+    "correctAnswers": [
+      "sys_db_object table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 25,
+    "text": "How are users related to roles or groups in an ServiceNow instance?",
+    "options": [
+      "One to One relationship",
+      "Many to many relationship",
+      "One to Many relationship",
+      "Many to one relationship"
+    ],
+    "correctAnswers": [
+      "Many to many relationship"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 26,
+    "text": "Where are customizations done on ServiceNow instance stored?",
+    "options": [
+      "sys_update_xml",
+      "sys_update",
+      "sys_update_set"
+    ],
+    "correctAnswers": [
+      "sys_update_xml"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 27,
+    "text": "\"___\" is used to join two tables. Fill in the blank with the correct option.",
+    "options": [
+      "Database Views",
+      "GlideRecord",
+      "Link Tables"
+    ],
+    "correctAnswers": [
+      "Database Views"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 28,
+    "text": "Is it true that a variable set can be used in multiple catalog items?",
+    "options": [
+      "FALSE",
+      "TRUE"
+    ],
+    "correctAnswers": [
+      "TRUE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 29,
+    "text": "What defines conditions that are evaluated against users to determine which users can access Service Catalog items?",
+    "options": [
+      "Palette Tabs",
+      "User Criteria",
+      "Tables and forms"
+    ],
+    "correctAnswers": [
+      "User Criteria"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 30,
+    "text": "Use \"___\" to create reports by modifying an existing report, or create a new report from scratch. Choose the right option from below.",
+    "options": [
+      "Dependency Views",
+      "Report_operator",
+      "Report Designer",
+      "Service Catalog"
+    ],
+    "correctAnswers": [
+      "Report Designer"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 31,
+    "text": "What is the sequence of conditions in a ServiceNow SLA definition?",
+    "options": [
+      "Start, Hold, Halt",
+      "Start, In Progress, Stop",
+      "Begin, Hold, Halt",
+      "Start, Pause, Stop"
+    ],
+    "correctAnswers": [
+      "Start, Pause, Stop"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 32,
+    "text": "Which one of the following statements is correct when referring to UI Actions?",
+    "options": [
+      "UI Actions on the Task Table are not available to its extended tables.",
+      "UI Actions are only executed on the server.",
+      "Conditions can be specified to determine when a UI Action appears",
+      "UI Actions cannot use scripts or be scripted."
+    ],
+    "correctAnswers": [
+      "Conditions can be specified to determine when a UI Action appears"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 33,
+    "text": "For UI policy to be applied on all views, which among the following should be checked?",
+    "options": [
+      "Condition",
+      "Run Script",
+      "On Load",
+      "Global"
+    ],
+    "correctAnswers": [
+      "Global"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 34,
+    "text": "Which of the below roles is required to manage UI policies?",
+    "options": [
+      "Impersonator role",
+      "Specialized Administrator",
+      "\"service_user\" role",
+      "\"itil\"",
+      "\"ui_policy_admin\" role"
+    ],
+    "correctAnswers": [
+      "\"ui_policy_admin\" role"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 35,
+    "text": "Which role will a user require to initiate the setup of Agent Intelligence?",
+    "options": [
+      "security_admin",
+      "Admin or ml_admin",
+      "agent_admin"
+    ],
+    "correctAnswers": [
+      "Admin or ml_admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 36,
+    "text": "Name the interface for building and enabling rich process automation capabilities known as flows.",
+    "options": [
+      "Flow Designer",
+      "ServiceNow Studio",
+      "Formatters",
+      "Field Values"
+    ],
+    "correctAnswers": [
+      "Flow Designer"
+    ],
+    "multipleChoice": false
+  }
+]

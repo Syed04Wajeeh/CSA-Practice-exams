@@ -1,0 +1,643 @@
+[
+  {
+    "id": 1,
+    "text": "What CMDB table stores the basic attributes of all the configuration items?",
+    "options": [
+      "Configuration File [cmdb_ci_config_file]",
+      "Configuration Item [cmdb_ci]",
+      "CI Relationship [cmdb_rel_ci]",
+      "Base Configuration Item [cmdb]"
+    ],
+    "correctAnswers": [
+      "Configuration Item [cmdb_ci]"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 2,
+    "text": "What information does the System Dictionary contain?",
+    "options": [
+      "The human-readable labels and language settings",
+      "The definition for each table and column",
+      "The language dictionary used for spell checking",
+      "The information on how tables relate to each other"
+    ],
+    "correctAnswers": [
+      "The definition for each table and column"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 3,
+    "text": "Is it true that any user can have multiple roles but can only be part of single assignment group on ServiceNow?",
+    "options": [
+      "TRUE",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "FALSE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 4,
+    "text": "An IT manager is responsible for the network and hardware assignment groups, each group contains 5 team members. These team members are working on many tasks, but the manager cannot see any tasks on the Service Desk > My Groups Work List. What could explain this?",
+    "options": [
+      "The manager is not a member of the network and hardware groups",
+      "The manager is not a member of the service desk group",
+      "The assignment group manager field is empty",
+      "The manager does not have the ITIL role"
+    ],
+    "correctAnswers": [
+      "The manager is not a member of the network and hardware groups"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 5,
+    "text": "Which of the following is true of Service Catalog Items in relation to the Service Catalog?",
+    "options": [
+      "They provide options.",
+      "They run behind the scenes.",
+      "They are optional",
+      "They are the building blocks."
+    ],
+    "correctAnswers": [
+      "They are the building blocks."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 6,
+    "text": "The MID Server enables communication and the movement of data between ServiceNow instance and external applications, data sources, and services. Which table stores all related communication records in this regard?",
+    "options": [
+      "ECC Queue (cmdb_ci_queue) table",
+      "ECC Queue (ecc_queue) table",
+      "ECC Queue (cmdb_ecc_queue) table"
+    ],
+    "correctAnswers": [
+      "ECC Queue (ecc_queue) table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 7,
+    "text": "What is the path an Administrator could take to view the fulfillment stage task list for an order placed by a user?",
+    "options": [
+      "REQ (Number)>RITM (Number)>PROCUREMENT (Number)",
+      "RITM (Number)>REQ (Number)>PROCUREMENT (Number)",
+      "REQ (Number)>RITM (Number)>TASK (Number)",
+      "FULFILLMENT (Number)>RITM (Number)>TASK (Number)"
+    ],
+    "correctAnswers": [
+      "REQ (Number)>RITM (Number)>TASK (Number)"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 8,
+    "text": "When adding a variable to a catalog item, what does an order field determine?",
+    "options": [
+      "The order field displays the fulfillment priority value in calculating and presenting an expected delivery date",
+      "The order field value is used to display the variable by price. The order is more expensive to less expensive",
+      "The order field establishes the display order of the variables. Variables are listed by ascending order values.",
+      "The order field sets the availability of the variable item by graying the item if it is not available to, he ordered"
+    ],
+    "correctAnswers": [
+      "The order field establishes the display order of the variables. Variables are listed by ascending order values."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 9,
+    "text": "Any ServiceNow user can impersonate other user on ServiceNow?",
+    "options": [
+      "TRUE",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "FALSE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 10,
+    "text": "You can limit Service Now instance access by IP ranges?",
+    "options": [
+      "TRUE",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "TRUE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 11,
+    "text": "Two departments (HR onboarding and facilities) have come to you, asking for a way for employees to request event room setup services. The requirements are the same for the form and the task routing to the facilities assignment group. However, both departments have their own service catalogs. what do you do, to support these requirements?",
+    "options": [
+      "create one catalog item for HR event room setup and one for facilities even room setup; then publish each to the appropriate catalog",
+      "create one catalog item for event room setup; then publish to the parent catalogue, which is accessible to both HR and facilities",
+      "create one catalog item for event room setup; then use ACLs to control access",
+      "create one catalogue item for event room setup; then publish to both catalogs"
+    ],
+    "correctAnswers": [
+      "create one catalogue item for event room setup; then publish to both catalogs"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 12,
+    "text": "What do you use in CMDB Workspace to verify the existence of actual IT infrastructure and applications that you own, systematically and in bulk?",
+    "options": [
+      "Multisource Report Builder",
+      "Service Graph Connectors",
+      "Identification and Reconciliation Engine",
+      "CI Attestation",
+      "IntegrationHub ETL"
+    ],
+    "correctAnswers": [
+      "CI Attestation"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 13,
+    "text": "Which module displays a list of tasks assigned to a user's group but not yet assigned to an individual user?",
+    "options": [
+      "My Groups Work",
+      "My Teams Work",
+      "My Groups Tasks"
+    ],
+    "correctAnswers": [
+      "My Groups Work"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 14,
+    "text": "Is it true that you cannot revert update set versions?",
+    "options": [
+      "FALSE",
+      "TRUE"
+    ],
+    "correctAnswers": [
+      "FALSE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 15,
+    "text": "What can agents do with the Sidebar feature in the Next Experience UI? (Choose 2)",
+    "options": [
+      "Integrate with other Workspaces to display related records.",
+      "Create, open and search for discussions about their work",
+      "Communicate with the caller/requester directly",
+      "Have real-time collaboration with others from a Workspace interaction-based record",
+      "Broadcast a text message or initiate a conference call with other agents"
+    ],
+    "correctAnswers": [
+      "Create, open and search for discussions about their work",
+      "Have real-time collaboration with others from a Workspace interaction-based record"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 16,
+    "text": "Which of the following operation is a record-type access control list that restricts access to reports based on a role?",
+    "options": [
+      "report_view",
+      "report_access",
+      "report_on",
+      "report_admin"
+    ],
+    "correctAnswers": [
+      "report_view"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 17,
+    "text": "Which one of the following statements is a recommendation from ServiceNow about Update Sets?",
+    "options": [
+      "Use the Baseline Update Set to store the contents of items after they are changed the first time",
+      "Before moving customizations from instance to instance with Update Sets, ensure that both instances are different versions",
+      "Once an Update Set is closed as \"Complete\", change it back to \"In Progress\" until it is applied to another instance",
+      "Avoid using the Default Update set as an Update Set for moving customization from instance to instance"
+    ],
+    "correctAnswers": [
+      "Avoid using the Default Update set as an Update Set for moving customization from instance to instance"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 18,
+    "text": "What is the master table that contains a record for each table in the database?",
+    "options": [
+      "[sys_master_object]",
+      "[sys_master_db]",
+      "[sys object db]",
+      "[sys_db_object]"
+    ],
+    "correctAnswers": [
+      "[sys_db_object]"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 19,
+    "text": "What details can you find in the import set record after running an import? (Choose 3)",
+    "options": [
+      "Import Maps",
+      "Import Set API",
+      "Import Log",
+      "Import Set Runs",
+      "Concurrent Import Sets",
+      "Import Set Rows"
+    ],
+    "correctAnswers": [
+      "Import Log",
+      "Import Set Runs",
+      "Import Set Rows"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 20,
+    "text": "Which of the following statement describes the purpose of an Order Guide?",
+    "options": [
+      "Order Guide provides a list of guidelines for Administrators on how to set up item variables",
+      "Order Guides take the user directly to the checkout without prompting for information",
+      "Order Guide restrict the number of items in an order to only one item per request",
+      "Order Guide provides the ability to order multiple, related items as one request"
+    ],
+    "correctAnswers": [
+      "Order Guide provides the ability to order multiple, related items as one request"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 21,
+    "text": "Which one of the following statements describes the purpose of a Service Catalog workflow?",
+    "options": [
+      "A Service Catalog workflow generates three basic components: item variable types, tasks, and notifications",
+      "A Service Catalog workflow generates three basic components. item variable types, tasks, and approvals",
+      "Although a Service Catalog workflow cannot send notifications, the workflow drives complex fulfillment processes",
+      "A Service Catalog workflow is used to drive complex fulfillment processes and sends notifications to defined users or groups"
+    ],
+    "correctAnswers": [
+      "A Service Catalog workflow is used to drive complex fulfillment processes and sends notifications to defined users or groups"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 22,
+    "text": "Which technique is used to get information from a series of referenced fields from different tables?",
+    "options": [
+      "Table-Walking",
+      "Sys ID Pulling",
+      "Dot-Walking",
+      "Record-Hopping"
+    ],
+    "correctAnswers": [
+      "Dot-Walking"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 23,
+    "text": "Which knowledge feedback option CANNOT be disabled at the knowledge base level?",
+    "options": [
+      "Marking as helpful",
+      "Commenting",
+      "All of them can be disabled",
+      "Flagging",
+      "Rating"
+    ],
+    "correctAnswers": [
+      "All of them can be disabled"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 24,
+    "text": "Buttons, form links and context menu items are example of what type of functionality?",
+    "options": [
+      "UI Policy",
+      "UI Action",
+      "Business Rule",
+      "Client Script"
+    ],
+    "correctAnswers": [
+      "UI Action"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 25,
+    "text": "What is the name of the conversational bot platform that provides assistance to help users obtain information, make decisions, and perform common tasks?",
+    "options": [
+      "Virtual Agent",
+      "Live Feed",
+      "Answer Agent",
+      "Connect Chat"
+    ],
+    "correctAnswers": [
+      "Virtual Agent"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 26,
+    "text": "For Administrators creating new Service Catalog items, what is the characteristic they should know about Service Catalog variables?",
+    "options": [
+      "Service Catalog variables can only be used in Record Producers",
+      "Service Catalog variables cannot affect the order price",
+      "Service Catalog variables can only be used in Order Guides",
+      "Service Catalog variables are global by default"
+    ],
+    "correctAnswers": [
+      "Service Catalog variables are global by default"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 27,
+    "text": "When using the Load Data and Transform Map process, what is the Mapping Assist used for?",
+    "options": [
+      "Mapping fields using Transform History",
+      "Mapping fields using the Import Log",
+      "Mapping fields using an SLA",
+      "Mapping fields using a Field Map"
+    ],
+    "correctAnswers": [
+      "Mapping fields using a Field Map"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 28,
+    "text": "Which of the following can be customized through the Basic Configuration UI 16 module? (Choose three)",
+    "options": [
+      "Record Number Format",
+      "System Date Format",
+      "Banner Image",
+      "Browser Tab Title",
+      "Form Header Size"
+    ],
+    "correctAnswers": [
+      "System Date Format",
+      "Banner Image",
+      "Browser Tab Title"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 29,
+    "text": "Which term best describes something that is created, has worked performed upon it, and is eventually moved to a state of closed?",
+    "options": [
+      "workflow",
+      "report",
+      "event",
+      "task"
+    ],
+    "correctAnswers": [
+      "task"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 30,
+    "text": "A knowledge article must be which of the following states to display?",
+    "options": [
+      "Drafted",
+      "Published",
+      "Retired",
+      "Reviewed"
+    ],
+    "correctAnswers": [
+      "Published"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 31,
+    "text": "What will happen if you make the short description field on task table as mandatory at the dictionary level?",
+    "options": [
+      "Nothing",
+      "Short description will be mandated on incident table only",
+      "Short description will be mandated on all the tables which are extending task table"
+    ],
+    "correctAnswers": [
+      "Short description will be mandated on all the tables which are extending task table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 32,
+    "text": "What allows agents to initiate a group discussion from a Workspace task-based or interaction-based record?",
+    "options": [
+      "Help menu",
+      "Sidebar",
+      "Connect Hub",
+      "Virtual Agent",
+      "Chatbot"
+    ],
+    "correctAnswers": [
+      "Sidebar"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 33,
+    "text": "Which of the following allows a user to edit field values in a list without opening the form?",
+    "options": [
+      "Data Editor",
+      "Form Designer",
+      "Edit Menu",
+      "List Editor"
+    ],
+    "correctAnswers": [
+      "List Editor"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 34,
+    "text": "IntegrationHub enables execution of third-party APIs as a part of a flow. These integrations are referred to as:",
+    "options": [
+      "A connection",
+      "An action",
+      "An Integration step",
+      "A spoke"
+    ],
+    "correctAnswers": [
+      "A spoke"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 35,
+    "text": "Which of the following statements is true when a new table is created by extending another table?",
+    "options": [
+      "The new table archives the parent table and assumed its roles in the database",
+      "The new table inherits all of the Business Rules, Client Scripts, and UI Policies of the parent table, but none of the existing fields",
+      "The new table inherits all of the fields, but does not inherit Access Control rules, Client Scripts, and UI Policies of the parent table",
+      "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself"
+    ],
+    "correctAnswers": [
+      "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 36,
+    "text": "A REQ number in the Service Catalog represents.",
+    "options": [
+      "the order number",
+      "the task to complete",
+      "the stage",
+      "the individual item in the order"
+    ],
+    "correctAnswers": [
+      "the order number"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 37,
+    "text": "What are the different Schema relationship types that are supported for tables? (Choose 4)",
+    "options": [
+      "Referenced by",
+      "Referencing",
+      "Depending",
+      "Extending",
+      "Extended by",
+      "Depended by"
+    ],
+    "correctAnswers": [
+      "Referenced by",
+      "Referencing",
+      "Extending",
+      "Extended by"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 38,
+    "text": "Which term refers to application menus and modules which you may want to access quickly and often?",
+    "options": [
+      "Breadcrumb",
+      "Bookmark",
+      "Tag",
+      "Favorite"
+    ],
+    "correctAnswers": [
+      "Favorite"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 39,
+    "text": "Knowledge Base Search results can be sorted by which of the following? (Choose 3)",
+    "options": [
+      "Manager assignment",
+      "Popularity",
+      "Most recent update",
+      "Relevancy",
+      "Number of views"
+    ],
+    "correctAnswers": [
+      "Most recent update",
+      "Relevancy",
+      "Number of views"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 40,
+    "text": "How are Workflows moved between instances?",
+    "options": [
+      "Workflows are moved using Application Sets",
+      "Workflow cannot be moved between instances",
+      "Workflows are moved using Update Sets",
+      "Workflows are moved using Transform Maps"
+    ],
+    "correctAnswers": [
+      "Workflows are moved using Update Sets"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 41,
+    "text": "The baseline Service Catalog homepage contains links to which of the following components?",
+    "options": [
+      "Order Guides, Catalog Items, and Workflows",
+      "Order Guides, Item Variables, and Workflows",
+      "Record Producers, Order Guides, and Catalog Items",
+      "Record Producers, Order Guides, and Item Variables"
+    ],
+    "correctAnswers": [
+      "Record Producers, Order Guides, and Catalog Items"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 42,
+    "text": "There is a business requirement to restrict incident reporting to specific roles for better governance. The Development team decided to add a new access control (ACL), so only those roles can view the contents of the reports on the incident table. What access control operation should they use to allow this access on the incident table?",
+    "options": [
+      "report_on",
+      "add_to_list",
+      "execute",
+      "report_view",
+      "read"
+    ],
+    "correctAnswers": [
+      "report_view"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 43,
+    "text": "Which one of the following statement is correct when referring to UI Actions?",
+    "options": [
+      "UI Action on the task table are not available to its extended tables",
+      "UI Actions cannot use scripts or be scripted",
+      "UI Actions are only executed on the server",
+      "Conditions can be specified to be determined when a UI Action appears"
+    ],
+    "correctAnswers": [
+      "Conditions can be specified to be determined when a UI Action appears"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 44,
+    "text": "Which feature enables you to add related entries for Identification and Reconciliation Engine (IRE) identification rules?",
+    "options": [
+      "IntegrationHub ETL",
+      "CMDB Data Manager",
+      "CI Class Manager",
+      "Service Graph connectors"
+    ],
+    "correctAnswers": [
+      "CI Class Manager"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 45,
+    "text": "Which feature enables you to maintain a unified content categorization across different content types, such as catalogue items, knowledge articles, and community posts?",
+    "options": [
+      "Knowledge Block",
+      "Social Q&A",
+      "User Criteria",
+      "Record Producer",
+      "Taxonomy"
+    ],
+    "correctAnswers": [
+      "Taxonomy"
+    ],
+    "multipleChoice": false
+  }
+]

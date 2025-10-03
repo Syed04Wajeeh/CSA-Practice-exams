@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "text": "Which one of the following phrases completes the statement: \"The purpose of transform map is to\"",
+    "options": [
+      "Create a set of new tables before any data is imported during the load data process.",
+      "Determine the relationship between fields displaying in an import set table to the fields in an existing ServiceNow table.",
+      "Encrypt data within the instance for higher security.",
+      "It adds a dummy record to align fields in a table before an administrator runs transform."
+    ],
+    "correctAnswers": [
+      "Determine the relationship between fields displaying in an import set table to the fields in an existing ServiceNow table."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 2,
+    "text": "How to manage record numbering (like INC0000777)?",
+    "options": [
+      "System Definition > Number maintenance",
+      "Number field > Number",
+      "System Definition > Numbers",
+      "None of the above"
+    ],
+    "correctAnswers": [
+      "System Definition > Number maintenance"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 3,
+    "text": "Which of the following describes the purpose of an order guide?",
+    "options": [
+      "Order guides provide a list of guidelines for administrators on how to set up item variables",
+      "Order guides provide me ability to order multiple related items as one request",
+      "Order guides restrict the number of items in an order to only one item per request",
+      "Order guides take the user directly to the checkout without prompting for information"
+    ],
+    "correctAnswers": [
+      "Order guides provide me ability to order multiple related items as one request"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 4,
+    "text": "What is contextual security in ServiceNow?",
+    "options": [
+      "The contextual security manager profile incredible flexibility and power to perfect information by controlling read/write authorization.",
+      "It doesn't apply the security rules to any level in the object hierarchy.",
+      "In platform security Settings, High automatically activities the contextual security plugin if is already active.",
+      "Protects a record based on its contents and table location, data is acted upon based on the position of the information in the table hierarchy. Defines access control rules to any level."
+    ],
+    "correctAnswers": [
+      "Protects a record based on its contents and table location, data is acted upon based on the position of the information in the table hierarchy. Defines access control rules to any level."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 5,
+    "text": "What are the three components of a filter condition?",
+    "options": [
+      "Table",
+      "Field",
+      "Value",
+      "Operator"
+    ],
+    "correctAnswers": [
+      "Field",
+      "Value",
+      "Operator"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 6,
+    "text": "What is the primary application used to load data into ServiceNow?",
+    "options": [
+      "Configuration",
+      "System Import Sets",
+      "Service Level Management",
+      "System Update Sets"
+    ],
+    "correctAnswers": [
+      "System Import Sets"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 7,
+    "text": "Which statement of the following is correct when referring to UI actions?",
+    "options": [
+      "UI actions are only executed on the server.",
+      "UI Actions cannot use scripts or be scripted.",
+      "Conditions can be specified to determine when a UI Action appears.",
+      "UI Actions on the task table are not available to its extended tables."
+    ],
+    "correctAnswers": [
+      "Conditions can be specified to determine when a UI Action appears."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 8,
+    "text": "Which of the following can be configured by all users in the Next Experience instances?",
+    "options": [
+      "AI Search",
+      "Next Experience Readiness Checker",
+      "Personalised Start Page",
+      "Custom menus",
+      "Admin menu"
+    ],
+    "correctAnswers": [
+      "Personalised Start Page"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 9,
+    "text": "Which one of the following is a list of what the Service Catalog contains?",
+    "options": [
+      "Record Producer, Order Guide, and Catalog Items.",
+      "Order Axles, Exchange Rates, Calendar.",
+      "Catalog Items, Asset Contracts, Task Surveys.",
+      "Order Guide, Catalog Items and Interceptors."
+    ],
+    "correctAnswers": [
+      "Record Producer, Order Guide, and Catalog Items."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 10,
+    "text": "You are asked to create an option in the service catalog, which will allow a user to click get help and describe the issue they are having. these forms should create incident records, which are automatically routed to the service desk, which method would you use?",
+    "options": [
+      "Create order guide",
+      "Create catalog item",
+      "Create content item",
+      "Create record producer"
+    ],
+    "correctAnswers": [
+      "Create record producer"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 11,
+    "text": "Where would you go to see if an admin impersonated another user?",
+    "options": [
+      "User Administration",
+      "Base Class",
+      "System Log",
+      "Tables"
+    ],
+    "correctAnswers": [
+      "System Log"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 12,
+    "text": "Access Control rules may be defined with which of the following permission requirements? (Choose 3)",
+    "options": [
+      "Scripts",
+      "Groups",
+      "Conditional Expressions",
+      "Roles",
+      "Assignment Rules",
+      "User Criteria"
+    ],
+    "correctAnswers": [
+      "Scripts",
+      "Conditional Expressions",
+      "Roles"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 13,
+    "text": "Which role can manage multiple Knowledge bases?",
+    "options": [
+      "sn_kb_admin",
+      "kb_admin",
+      "knowledge_admin",
+      "knowledge_base_admin"
+    ],
+    "correctAnswers": [
+      "knowledge_admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 14,
+    "text": "What is the Import Set Table?",
+    "options": [
+      "A staging area for imported records",
+      "A repository for Update Set information",
+      "A table that determines relationships",
+      "A table where data will be placed, post-transformation"
+    ],
+    "correctAnswers": [
+      "A staging area for imported records"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 15,
+    "text": "While showing a customer their incident form, they ask to change the Priority field title to display their internal terminology PValue. How would you do that? (Choose two responses)",
+    "options": [
+      "Right click on Priority and select Configure Dictionary",
+      "Right click on Priority and select Configure Label",
+      "Right click on Priority and select Configure Display Settings",
+      "Right click on Priority and select Configure"
+    ],
+    "correctAnswers": [
+      "Right click on Priority and select Configure Dictionary",
+      "Right click on Priority and select Configure Label"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 16,
+    "text": "Which field (or fields) is used as a unique key during imports?",
+    "options": [
+      "Sys IDs",
+      "Match Fields",
+      "Coalesce Fields",
+      "Key Fields"
+    ],
+    "correctAnswers": [
+      "Coalesce Fields"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 17,
+    "text": "What module enable an administrator to define destinations for imported data on any ServiceNow table?",
+    "options": [
+      "Field Transform",
+      "Schema Map",
+      "Import Map",
+      "Transform Map"
+    ],
+    "correctAnswers": [
+      "Transform Map"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 18,
+    "text": "You can identify tables without report_view access control lists (ACLs) and evaluate which users won't pass the read ACLs on a table. What application allows you to compare reports against all report_view and the corresponding read ACLs?",
+    "options": [
+      "Report Security - enforce access control checks",
+      "Reporting Statistics Reports",
+      "Security Jump Start (ACL Rules)",
+      "ACL Assessment for Reports",
+      "Anonymous Report Center"
+    ],
+    "correctAnswers": [
+      "ACL Assessment for Reports"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 19,
+    "text": "Which component of a table contains a piece of data for one record?",
+    "options": [
+      "Field",
+      "Factor",
+      "Datapoint",
+      "Item",
+      "Elements"
+    ],
+    "correctAnswers": [
+      "Field"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 20,
+    "text": "You can add human-readable keywords to the URLs of portal pages to improve search engine optimization (SEO) and click-through rates and help users understand what to expect on the page. What can be added as human-readable keywords to help with SEO? (Select 2)",
+    "options": [
+      "Dynamic page variables",
+      "Page parameters",
+      "Sys ID",
+      "Static content",
+      "Page ID"
+    ],
+    "correctAnswers": [
+      "Dynamic page variables",
+      "Static content"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 21,
+    "text": "Which section of the ServiceNow UI allows you to perform a global search?",
+    "options": [
+      "Application Navigator.",
+      "Content frame",
+      "Banner frame",
+      "List pane"
+    ],
+    "correctAnswers": [
+      "Banner frame"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 22,
+    "text": "Which of the following roles cannot be delegated? (Select 2 answers)",
+    "options": [
+      "admin",
+      "itil",
+      "user_admin",
+      "role_delegator"
+    ],
+    "correctAnswers": [
+      "admin",
+      "role_delegator"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 23,
+    "text": "What is a best practice regarding data imports?",
+    "options": [
+      "Plan time before your import to remove obsolete or inaccurate data",
+      "Use extremely large Import Sets, instead of multiple large Import Sets",
+      "Adjust your Transform maps, after the data is loaded into the target table",
+      "Create a new import set table for each new data load",
+      "Monitor data quality and clean imported data, using the Data Scrub Workspace"
+    ],
+    "correctAnswers": [
+      "Plan time before your import to remove obsolete or inaccurate data"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 24,
+    "text": "What process allows users to create, categorize, review, approve and browse important information in a centralized location that is shared by the entire organization?",
+    "options": [
+      "Self Service Management",
+      "Knowledge-Centred Management",
+      "Knowledge Management",
+      "Business Information Management",
+      "Information Portal Management"
+    ],
+    "correctAnswers": [
+      "Knowledge Management"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 25,
+    "text": "Why is it recommended that you limit update sets to a maximum of 100 records? (Choose 2 answers)",
+    "options": [
+      "Comply with ISO audit requirements",
+      "Smaller update sets can be imported to production during business hours",
+      "Reduce potential conflicts",
+      "Improve ability to troubleshoot issues with default update set",
+      "Make it easier to identify and review changes",
+      "Keeps update set logs shorter"
+    ],
+    "correctAnswers": [
+      "Reduce potential conflicts",
+      "Make it easier to identify and review changes"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 26,
+    "text": "What is the language used for scripting in ServiceNow?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "PHP",
+      "Glide",
+      "Perl"
+    ],
+    "correctAnswers": [
+      "JavaScript"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 27,
+    "text": "What are the different ways to bring users into the ServiceNow system?",
+    "options": [
+      "Through Single Sign-on, LDAP, Homepage Admin, manually entering users.",
+      "Through Single Sign-on, Knowledge Base, manually created by admin.",
+      "Through Knowledge Base, Organization Management process module, manually creating users.",
+      "Through Single Sign-on, LDAP, using an import sets (importing users), both manually entering users and creating users."
+    ],
+    "correctAnswers": [
+      "Through Single Sign-on, LDAP, using an import sets (importing users), both manually entering users and creating users."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 28,
+    "text": "To quickly return to your instance's home page, what item would you click?",
+    "options": [
+      "Star icon",
+      "Shortcut's icon",
+      "Navigation header",
+      "Gear icon",
+      "Instance logo",
+      "User menu"
+    ],
+    "correctAnswers": [
+      "Instance logo"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 29,
+    "text": "What is Single Sign-On (SSO)?",
+    "options": [
+      "A process that grants access to third-party software that allows Service Now to write to outside databases.",
+      "A ServiceNow application that maintains, stores, and validates passwords for access to Service Now applications.",
+      "A type of ServiceNow release that updates existing Service Now instance.",
+      "A type of integration that enables a user to log in once and gain access to the resources of multiple software systems without being prompted to log in again."
+    ],
+    "correctAnswers": [
+      "A type of integration that enables a user to log in once and gain access to the resources of multiple software systems without being prompted to log in again."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 30,
+    "text": "Which script can run when a record is displayed, inserted, updated, deleted, or when a table is queried?",
+    "options": [
+      "Business Rule",
+      "Client Script",
+      "UI Script",
+      "Scheduled Job",
+      "Record rule"
+    ],
+    "correctAnswers": [
+      "Business Rule"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 31,
+    "text": "Which one of the following are types of Service Catalog variables?",
+    "options": [
+      "Number list, Check box, Single-line",
+      "Select box, Check box, Multi-line",
+      "Reference, Number list, Multi line",
+      "None of the above"
+    ],
+    "correctAnswers": [
+      "Select box, Check box, Multi-line"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 32,
+    "text": "What utility enables process owners to author cross-enterprise workflows within a single, unified process?",
+    "options": [
+      "Flow Editor",
+      "Flow Designer",
+      "Workflow Manager",
+      "Process Owner Dashboard",
+      "Process Workflow Designer",
+      "Process Automation Designer"
+    ],
+    "correctAnswers": [
+      "Process Automation Designer"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 33,
+    "text": "On a list, what part of the table, does each column show?",
+    "options": [
+      "An element",
+      "A relationship",
+      "A record",
+      "An attribute",
+      "A field"
+    ],
+    "correctAnswers": [
+      "A field"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 34,
+    "text": "In a typical ServiceNow instance, what types of users are in the system? (Choose one list that orders from 1=most seats to 4=least in amount of seats)",
+    "options": [
+      "1) System Administrator 2) Delegate Administrator 3) ITIL User 4) ESS user.",
+      "1) ESS user 2) Delegate Administrator 3) ITIL User 4) System Administrator.",
+      "1) ESS user 2) ITIL User 3) Delegate Administrator 4) System Administrator.",
+      "1) System Administrator 2) ITIL User 3) Delegate Administrator 4) ESS user."
+    ],
+    "correctAnswers": [
+      "1) ESS user 2) ITIL User 3) Delegate Administrator 4) System Administrator."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 35,
+    "text": "Incident, problem and change tables extend which table?",
+    "options": [
+      "User [sys_user]",
+      "Task [task]",
+      "Process steps [access steps]",
+      "Map [map]"
+    ],
+    "correctAnswers": [
+      "Task [task]"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 36,
+    "text": "The wait time for end users is based on the round-trip between the client and the server. What activities are included in the roundtrips?",
+    "options": [
+      "Submit + Query",
+      "Request + Response",
+      "Insert + Verify",
+      "Save + Update",
+      "Write + Read"
+    ],
+    "correctAnswers": [
+      "Request + Response"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 37,
+    "text": "Which CMDB feature tracks the activities and history of data sources as they insert and update CI attributes? (Choose 2)",
+    "options": [
+      "Multisource CMDB",
+      "CI Class Manager",
+      "CMDB CI Lifecycle Management",
+      "CMDB Data Manager",
+      "CMDB 360"
+    ],
+    "correctAnswers": [
+      "Multisource CMDB",
+      "CMDB 360"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 38,
+    "text": "New records, new groups and modified configuration items what do they have in common?",
+    "options": [
+      "They are included in an update set",
+      "They are customizations",
+      "They do not have anything in common",
+      "They are not captured in an update set."
+    ],
+    "correctAnswers": [
+      "They are not captured in an update set."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 39,
+    "text": "Which of the following is a requirement for using the CMDB Data Manager?",
+    "options": [
+      "Configuring the data mapping and migration rules in the CMDB Data Manager.",
+      "Setting up the Common Service Data Model (CSDM) environment.",
+      "Ensuring there is an active life-cycle rule corresponding to each target class in a life-cycle policy.",
+      "Mapping and migrating legacy life-cycle values into the CSDM standard values.",
+      "Installing the CSDM Activation (com.snc.cmdb.csdm.activation) plugin."
+    ],
+    "correctAnswers": [
+      "Ensuring there is an active life-cycle rule corresponding to each target class in a life-cycle policy."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 40,
+    "text": "What is a workflow primarily used for?",
+    "options": [
+      "To send email notifications.",
+      "To order catalog items.",
+      "To automate a sequence of activities.",
+      "To schedule reports."
+    ],
+    "correctAnswers": [
+      "To automate a sequence of activities."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 41,
+    "text": "A dark theme or mode is available for some of the Now Platform capabilities in the Next Experience UI to allow users to fine-tune their experience and help alleviate their eye strain. Which of the following products can support the dark theme? (Choose 3)",
+    "options": [
+      "Assessments and Surveys",
+      "Dashboards and Reports",
+      "Natural Language Understanding",
+      "Knowledge Management",
+      "AI Search"
+    ],
+    "correctAnswers": [
+      "Assessments and Surveys",
+      "Dashboards and Reports",
+      "Knowledge Management"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 42,
+    "text": "When using Transform Mapping how we can dynamically map field?",
+    "options": [
+      "We can dynamically map source and destination fields by using ServiceNow scripting objects and functionality.",
+      "By updating the fields using update sets, we can add/delete/modify the fields using rules and server scripts.",
+      "We cannot map dynamically map source and destination fields by using ServiceNow scripting objects and functionality.",
+      "We cannot Schedule data imports for mapping the source and destination fields."
+    ],
+    "correctAnswers": [
+      "We can dynamically map source and destination fields by using ServiceNow scripting objects and functionality."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 43,
+    "text": "By default in ServiceNow, what customizations are added to Update Sets?",
+    "options": [
+      "Changes made to a schedule.",
+      "Changes made to a form.",
+      "Changes made to data.",
+      "Changes made to a homepage."
+    ],
+    "correctAnswers": [
+      "Changes made to a form."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 44,
+    "text": "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? (Choose 2)",
+    "options": [
+      "Their user account was not approved by their manager",
+      "Their user account does not belong to any groups, which contain the ITIL role",
+      "Their user account is not logged in properly",
+      "Their user account does not have ITIL role"
+    ],
+    "correctAnswers": [
+      "Their user account does not belong to any groups, which contain the ITIL role",
+      "Their user account does not have ITIL role"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 45,
+    "text": "What is the industry term used to describe the computing platform and solution stack that supports the delivery of web applications?",
+    "options": [
+      "Single Sign On[SSO]",
+      "Simple Object Access Protocol[SOAP]",
+      "Open Database Connectivity[ODBC]",
+      "Platform as a service[PaaS]"
+    ],
+    "correctAnswers": [
+      "Platform as a service[PaaS]"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 46,
+    "text": "The _______________ is a user friendly reference to a field and the ______________ is the backend reference to a field?",
+    "options": [
+      "name, label",
+      "label, name",
+      "name, value",
+      "label, value"
+    ],
+    "correctAnswers": [
+      "label, name"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 47,
+    "text": "What features of ITIL are utilized by the ServiceNow platform?",
+    "options": [
+      "Planning, Design, Configuration, Testing",
+      "Strategy, Design, Transition, Operations",
+      "Strategy, Design, Transition, Configurations",
+      "Planning, Strategy, Design, Transition"
+    ],
+    "correctAnswers": [
+      "Strategy, Design, Transition, Operations"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 48,
+    "text": "Which of the following statements correctly describes the difference between a client script and a business rule?",
+    "options": [
+      "A client script runs on the server and a business rule runs on the client",
+      "A client script runs on the client when onLoad, onChange of a field or onSubmit of a record. A business rule runs on server before or after a record is loaded, inserted, deleted or updated.",
+      "A client script runs before a record is loaded and a business rule runs after a record is loaded.",
+      "A client script runs on the client only on load of a record A business rule runs on the server only after a record is added, inserted, deleted or updated."
+    ],
+    "correctAnswers": [
+      "A client script runs on the client when onLoad, onChange of a field or onSubmit of a record. A business rule runs on server before or after a record is loaded, inserted, deleted or updated."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 49,
+    "text": "What integration with Catalog Builder enables you to translate the content of the catalogue items on the Catalog Builder dashboard?",
+    "options": [
+      "Internationalization Framework",
+      "Localization Framework",
+      "Translation Framework",
+      "Globalization Framework"
+    ],
+    "correctAnswers": [
+      "Localization Framework"
+    ],
+    "multipleChoice": false
+  }
+]

@@ -1,0 +1,775 @@
+[
+  {
+    "id": 1,
+    "text": "What type of platform is provided by Now Platform?",
+    "options": [
+      "Application Platform-as-a-Service",
+      "Infrastructure as-a-Service",
+      "None of the listed answers",
+      "Software as-a-Service"
+    ],
+    "correctAnswers": [
+      "Application Platform-as-a-Service"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 2,
+    "text": "What is record producer?",
+    "options": [
+      "Record producer is a form of automated test to allow data verification",
+      "Record producer is a scheduled job that creates records in table automatically",
+      "Record producer allows customers to fill a form that will be translated into a task-based record",
+      "Record producer allows fulfiller users to create records in the task table"
+    ],
+    "correctAnswers": [
+      "Record producer allows customers to fill a form that will be translated into a task-based record"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 3,
+    "text": "Which table is used to store configuration items?",
+    "options": [
+      "cmdb",
+      "cmdb_ci",
+      "configuration_item",
+      "sys_ci",
+      "sys_configuration_item"
+    ],
+    "correctAnswers": [
+      "cmdb_ci"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 4,
+    "text": "If a table is extended but itself is not extending another table, it is called a ---------.",
+    "options": [
+      "extending table",
+      "master table",
+      "base table",
+      "interface",
+      "parent table",
+      "core table"
+    ],
+    "correctAnswers": [
+      "base table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 5,
+    "text": "Which of the following should you use in order to run automated tests on ServiceNow?",
+    "options": [
+      "Machine Learning Tests",
+      "Automated Test Module",
+      "Recorded Tests",
+      "Automated Test Framework",
+      "UI Tests",
+      "Robotic Tests"
+    ],
+    "correctAnswers": [
+      "Automated Test Framework"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 6,
+    "text": "List Editor has the feature that allows editing a field on multiple rows.",
+    "options": [
+      "True",
+      "FALSE"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 7,
+    "text": "You are designing a flow. You created an action on the incident record and you need to make use of this record in a subsequent action. Which of the following can be useful?",
+    "options": [
+      "Field Picker",
+      "Subflow",
+      "Triggers",
+      "Data pills",
+      "Field Selector"
+    ],
+    "correctAnswers": [
+      "Data pills"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 8,
+    "text": "Any table in ServiceNow can be extended.",
+    "options": [
+      "False",
+      "TRUE"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 9,
+    "text": "If you need to create a visual task board (VTB) as your personal organizer and create tasks of any type and freely adding/removing cards and lanes, then the VTB type you should use is Flexible.",
+    "options": [
+      "TRUE",
+      "False"
+    ],
+    "correctAnswers": [
+      "TRUE"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 10,
+    "text": "_______ is a field where you can ask natural language questions about the trends and health of your processes.",
+    "options": [
+      "Agent Workspace",
+      "Analytics Q&A",
+      "Virtual Agent",
+      "Analytics Bot",
+      "Chatbot"
+    ],
+    "correctAnswers": [
+      "Analytics Q&A"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 11,
+    "text": "Which of the following statements is correct regarding knowledge management workflows?",
+    "options": [
+      "One workflow should be used for all knowledge bases",
+      "The same workflow that is used for publishing should be used for retirement",
+      "There are workflows available OOTB but you can create your own",
+      "None of the listed answers is correct",
+      "Workflows can be used only for publishing article but not for retirement"
+    ],
+    "correctAnswers": [
+      "There are workflows available OOTB but you can create your own"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 12,
+    "text": "Which application scope is used to identify applications created before application scoping?",
+    "options": [
+      "Reporting",
+      "ITSM",
+      "Global",
+      "General",
+      "No application scope is assigned to applications that were created prior to application scoping"
+    ],
+    "correctAnswers": [
+      "Global"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 13,
+    "text": "What access does a user need to be able to import articles to a knowledge base?",
+    "options": [
+      "sn_knowledge_import",
+      "sn_knowledge_contribute",
+      "can contribute",
+      "sn_knowledge_write",
+      "can write",
+      "can import"
+    ],
+    "correctAnswers": [
+      "can contribute"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 14,
+    "text": "A manager wants to view a snapshot of month end Sales performance data, as compared to Sales targets. In addition, the manager wants to be able to see those monthly numbers trended over time and forecasted into the future. What capability do you suggest for this manager?",
+    "options": [
+      "Scheduled Reports, a custom snapshot table, and a Projection report",
+      "Scheduled Reports, a custom snapshot table, and a Trend report",
+      "Performance Analytics",
+      "Scheduled Reports and Excel",
+      "Key Performance Indicators"
+    ],
+    "correctAnswers": [
+      "Performance Analytics"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 15,
+    "text": "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? (Select 2 answers)",
+    "options": [
+      "Their user account was not approved by their manager",
+      "Their user account does not belong to any groups, which contain the itil role",
+      "Their user account is not logged in properly",
+      "Their user account does not have itil role",
+      "Their user account failed LDAP authentication"
+    ],
+    "correctAnswers": [
+      "Their user account does not belong to any groups, which contain the itil role",
+      "Their user account does not have itil role"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 16,
+    "text": "What are advantages of using Flow Designer? (Choose 4 answers)",
+    "options": [
+      "Supports legacy workflows",
+      "Less manual scripting",
+      "Enables complicated scripting",
+      "Reduces technical debt",
+      "Smooth integration with 3rd party systems",
+      "Complements the Integration Store"
+    ],
+    "correctAnswers": [
+      "Less manual scripting",
+      "Reduces technical debt",
+      "Smooth integration with 3rd party systems",
+      "Complements the Integration Store"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 17,
+    "text": "When moving a homepage or dashboard between instances, what must you remember?",
+    "options": [
+      "They are automatically added to the update set",
+      "Create a separate update set for them",
+      "They can be moved using ZIP files",
+      "They cannot be moved via XML",
+      "Manually add them to the update set",
+      "They cannot be moved via update set"
+    ],
+    "correctAnswers": [
+      "Manually add them to the update set"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 18,
+    "text": "What policies are applied to all data entered into the platform: via form (UI), Import Sets, or Web Services?",
+    "options": [
+      "Data Submission Policies",
+      "Data Quality Policies",
+      "Data Integrity Policies",
+      "Data Policies",
+      "Write Policies"
+    ],
+    "correctAnswers": [
+      "Data Policies"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 19,
+    "text": "Which flow components allow you to specify when a flow should be run?",
+    "options": [
+      "Trigger and Condition",
+      "Condition and Table",
+      "Scope and Trigger Condition",
+      "Trigger Criteria and Clock"
+    ],
+    "correctAnswers": [
+      "Trigger and Condition"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 20,
+    "text": "If you have the Impersonate role, what type of user are you not able to impersonate?",
+    "options": [
+      "Extended Security Admin",
+      "Security Desk Users",
+      "Special Agents",
+      "Government Customers",
+      "Security Incident Response Users"
+    ],
+    "correctAnswers": [
+      "Extended Security Admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 21,
+    "text": "Which ServiceNow resource can be used as a blueprint to map your IT Services to ServiceNow?",
+    "options": [
+      "Configuration Management Database (CMDB)",
+      "NowLearning",
+      "ServiceNow Wiki",
+      "Service Mapping Guided Setup",
+      "Common Services Data Model (CSDM)",
+      "IT Service Management(ITSM)"
+    ],
+    "correctAnswers": [
+      "Common Services Data Model (CSDM)"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 22,
+    "text": "What tool allows you to drag and drop to specify links between source fields on an Import Set table and destination fields on any ServiceNow table?",
+    "options": [
+      "Data Source Map",
+      "Mapping Assist Utility",
+      "Import Designer",
+      "Transform Designer",
+      "Transform Dashboard",
+      "Import Workspace"
+    ],
+    "correctAnswers": [
+      "Mapping Assist Utility"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 23,
+    "text": "What are the steps for importing data using an import set?",
+    "options": [
+      "Identify source; Import transform map; Run transformer; Verify import",
+      "Load the data; Create transform map; Transform data; Clean up import table",
+      "Select source file; Run AutoMap; Transform data; Clean up target table",
+      "Set up LDAP; Test map; Create update set; Run import; Apply update set"
+    ],
+    "correctAnswers": [
+      "Load the data; Create transform map; Transform data; Clean up import table"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 24,
+    "text": "You are creating a catalog item for ordering a new desktop computer. The computers have these options:\nColor: Black or Silver\nRAM: 32 MB or 64 MB\nKeyboard: Standard or Ergonomic\nMonitor: 24 inch or 32 inch\nHow would you add these options to the catalog item form?",
+    "options": [
+      "Add choices",
+      "Add UI options",
+      "Add variables",
+      "Add fields"
+    ],
+    "correctAnswers": [
+      "Add variables"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 25,
+    "text": "Here is an example of the criteria set for a Knowledge Base.\n· Companies: ACME North America\n· Departments: HR\n· Groups: ACME Managers\n· Match All: Yes\nIn this example, what user would have access to this Knowledge Base?",
+    "options": [
+      "Members of the ACME Managers group, and HR department, regardless of geography",
+      "Employee of ACME North America, who are members of HR Department or the ACME Managers group",
+      "Members of the ACME Manager group, who are also members of the HR Department and part of ACME North America",
+      "Users which are members of either ACME North America, or HR Department, or ACME Managers group."
+    ],
+    "correctAnswers": [
+      "Members of the ACME Manager group, who are also members of the HR Department and part of ACME North America"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 26,
+    "text": "For a customer's inventory application, several inventory specifications fields are needed on an inventory ticket. These tickets will be assigned to inventory support team members. How would you start to implement this requirement?",
+    "options": [
+      "Create inventory table as a new base Table. Then add inventory specifications fields, as needed",
+      "Create inventory table with the inventory specification fields. Then create view between the inventory and the Task table",
+      "Create inventory table with the inventory specification fields. Then create many to many relationships between the inventory and the Task table",
+      "Create inventory table as an extended table from the Task Table. Then add the inventory specification fields, as needed."
+    ],
+    "correctAnswers": [
+      "Create inventory table as an extended table from the Task Table. Then add the inventory specification fields, as needed."
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 27,
+    "text": "What attributes you can manage using System Properties > Basic Configuration UI16 (Choose 5 answer)",
+    "options": [
+      "Default calendar",
+      "Browser tab title",
+      "Base Theme",
+      "Module text color",
+      "Header background color",
+      "Banner Image"
+    ],
+    "correctAnswers": [
+      "Browser tab title",
+      "Base Theme",
+      "Module text color",
+      "Header background color",
+      "Banner Image"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 28,
+    "text": "Which type of scripts run in the browser?",
+    "options": [
+      "Flow Designer Actions",
+      "Script Includes",
+      "Business Rules",
+      "ACL Scripts",
+      "Transform Maps",
+      "UI Policies and Client Scripts"
+    ],
+    "correctAnswers": [
+      "UI Policies and Client Scripts"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 29,
+    "text": "Which type of field allows you to enter freely using letters, numbers, and special characters?",
+    "options": [
+      "Multi line text",
+      "Single line text",
+      "Open text",
+      "Text",
+      "String"
+    ],
+    "correctAnswers": [
+      "String"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 30,
+    "text": "What is a set of conditions applied to a table list to show a subset of the data?",
+    "options": [
+      "Mask",
+      "Divisor",
+      "Filter",
+      "Funnel",
+      "Query"
+    ],
+    "correctAnswers": [
+      "Filter"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 31,
+    "text": "Which admin role is required to make changes to High Security Settings?",
+    "options": [
+      "acl_admin",
+      "high_sec_admin",
+      "sn_ad_admin",
+      "admin",
+      "security_admin"
+    ],
+    "correctAnswers": [
+      "security_admin"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 32,
+    "text": "How are users and groups related",
+    "options": [
+      "Many to Many",
+      "One to Many",
+      "One to One",
+      "Onto to Many"
+    ],
+    "correctAnswers": [
+      "Many to Many"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 33,
+    "text": "When importing data, what happens to imported rows, if no coalesce field is specified?",
+    "options": [
+      "All rows are treated as new records, but errors will be flagged in the import log",
+      "Duplicate rows are rejected from the import",
+      "All rows are treated as new records. No existing records are updated",
+      "All rows are rejected from the import, as coalesce field is required"
+    ],
+    "correctAnswers": [
+      "All rows are treated as new records. No existing records are updated"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 34,
+    "text": "Which one of the following statement applies to a set of fields when they are coalesced during an import?",
+    "options": [
+      "If a match is not found using the coalesce fields, the system does not create a Transform Map",
+      "If a match is found using the coalesce fields, the system creates a new record",
+      "If a match is found using the coalesce fields, the existing record is updated with the information being imported",
+      "If a match is not found using the coalesce fields, the existing record is updated with the information being imported"
+    ],
+    "correctAnswers": [
+      "If a match is found using the coalesce fields, the existing record is updated with the information being imported"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 35,
+    "text": "What can be used to automatically populate fields in a form?",
+    "options": [
+      "Template",
+      "Formatters",
+      "Assignment Rules",
+      "Reference Qualifiers"
+    ],
+    "correctAnswers": [
+      "Template"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 36,
+    "text": "A Service Catalog project will involve building 80 catalog items. For each of the catalog items, the following fields will be mandatory on the forms:\n· Requested for\n· Requested by\n· Approving manager\n· Delivery Instructions\nAll of the other variables will be specific to the individual catalog item. What features would you use when designing the catalog item form?",
+    "options": [
+      "Create an Order Guide, which includes all variables, then copy and hide variables as needed.",
+      "Create one Variable Set for the four variables, then add that variable set to each of the 80 catalog items",
+      "Create a Variable Set Template, then apply to all of the catalog items",
+      "Create a Record Producer that contains the four fields, then add to the record producer related list on the Catalog Items",
+      "Create a Flow Designer Action, with Variable Set Data Pill, then apply flow to all of the 80 catalog items"
+    ],
+    "correctAnswers": [
+      "Create one Variable Set for the four variables, then add that variable set to each of the 80 catalog items"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 37,
+    "text": "Which of the following protects applications by identifying and restricting access to available files and data?",
+    "options": [
+      "Application Configuration",
+      "Access Control Rules",
+      "Verbose Log",
+      "Application Scope"
+    ],
+    "correctAnswers": [
+      "Application Scope"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 38,
+    "text": "A manager wants to run a report showing how many Service Requests have been fulfilled for Business Cards, since the beginning of the year. What table would they select for building this report?",
+    "options": [
+      "Request [sc_req]",
+      "Requested Item [sc_req_item]",
+      "Task [task]",
+      "Catalog Item [sc_cat_item]",
+      "Catalog Task [sc_task]",
+      "Service Catalog [sc_catalog]"
+    ],
+    "correctAnswers": [
+      "Requested Item [sc_req_item]"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 39,
+    "text": "Which helps the agents to have real-time collaboration with others based around a Workspace task-based or interaction-based record?",
+    "options": [
+      "Virtual Agent",
+      "Side bar",
+      "Now Support Community",
+      "Help menu"
+    ],
+    "correctAnswers": [
+      "Side bar"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 40,
+    "text": "Your customer requires that they be able to monitor which users are performing impersonations in their instance. What would you do to meet that requirement?",
+    "options": [
+      "Add the role Log Write [an_log_write] to the Impersonator Group",
+      "Activate the glide.sys.log_impersonation script",
+      "Create user update set for impersonation tracking",
+      "On the Impersonator role record, right click and select Create Log",
+      "From User Icon, select Elevate Roles"
+    ],
+    "correctAnswers": [
+      "Activate the glide.sys.log_impersonation script"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 41,
+    "text": "Which feature assists in understanding the Service Portal user experience better?",
+    "options": [
+      "Employee Centre Portal",
+      "Service Portal Usage Overview Dashboard",
+      "Performance Analytics",
+      "User Experience Analytics"
+    ],
+    "correctAnswers": [
+      "User Experience Analytics"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 42,
+    "text": "What is the most important thing to remember about activating a Plugin?",
+    "options": [
+      "Install dependent plugins first",
+      "Tick the box for adding demo data",
+      "Plugins once installed cannot be uninstalled",
+      "Submit a HI ticket to get authorization",
+      "Plugins are prohibited in personal developer instances"
+    ],
+    "correctAnswers": [
+      "Plugins once installed cannot be uninstalled"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 43,
+    "text": "Which operation is a record type access control list (ACL) that governs reports in dashboards and are enabled by default?",
+    "options": [
+      "security_admin",
+      "report_view",
+      "pa_admin",
+      "report_access"
+    ],
+    "correctAnswers": [
+      "report_view"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 44,
+    "text": "Which role can administrators grant to users in order for them to view the configuration and execution details of only flows and subflows?",
+    "options": [
+      "fd_read",
+      "fd_read_operations",
+      "fd_read_flows",
+      "fd_admin_designer"
+    ],
+    "correctAnswers": [
+      "fd_read_flows"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 45,
+    "text": "The display sequence is controlled in the Service Catalog Item using which of the following?",
+    "options": [
+      "The Default Value field in the Catalog Item form",
+      "The Sequence field in the Catalog Item form",
+      "The Order field in the Variable form",
+      "The Choice field in the Variable form"
+    ],
+    "correctAnswers": [
+      "The Order field in the Variable form"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 46,
+    "text": "Which Chatbot on the Now Platform allows you to send notifications directly to Slack and Microsoft Teams users?",
+    "options": [
+      "ChatGPT",
+      "Connect Chat",
+      "Now Notifications",
+      "Sidebar",
+      "Virtual Agent"
+    ],
+    "correctAnswers": [
+      "Virtual Agent"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 47,
+    "text": "CMDB Data Manager is a wizard-like tool that provides a comprehensive solution for managing configuration items. Which of the following indicates how CMDB Data Manager operates? Select 2 Answers from the below options.",
+    "options": [
+      "It rarely copes with rapid changes in a cloud-based world.",
+      "It operates in bulk.",
+      "It helps maintain the CMDB healthy and efficient.",
+      "It can only manage small to medium CMDBS."
+    ],
+    "correctAnswers": [
+      "It operates in bulk.",
+      "It helps maintain the CMDB healthy and efficient."
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 48,
+    "text": "Which script runs when a record is displayed, inserted, updated, deleted or when a table is queried?",
+    "options": [
+      "UI Policy",
+      "Data Policy",
+      "Business Rule",
+      "Client Script"
+    ],
+    "correctAnswers": [
+      "Business Rule"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 49,
+    "text": "What catalog tool would you like to create a catalog item or record producer?",
+    "options": [
+      "Catalog Formatter",
+      "Catalog Flow Builder",
+      "Catalog Builder",
+      "Catalog Designer",
+      "Variable Designer",
+      "Form Designer"
+    ],
+    "correctAnswers": [
+      "Catalog Builder"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 50,
+    "text": "What can be set up to auto-assign all new Hardware category Incidents to a particular group? Select 3 Answers from the below options.",
+    "options": [
+      "Access Controls",
+      "Assignment rules",
+      "Business rules",
+      "UI Actions",
+      "Data lookup rules"
+    ],
+    "correctAnswers": [
+      "Assignment rules",
+      "Business rules",
+      "Data lookup rules"
+    ],
+    "multipleChoice": true
+  },
+  {
+    "id": 51,
+    "text": "What type of relationship is recommended between Incident and SLA tables to report on incidents resolved by SLA per incident category?",
+    "options": [
+      "One-to-Many",
+      "Extensions",
+      "Many-to-Many",
+      "Database Views"
+    ],
+    "correctAnswers": [
+      "Database Views"
+    ],
+    "multipleChoice": false
+  },
+  {
+    "id": 52,
+    "text": "When a flow runs an action, if generates a runtime value, which stays the same for the duration of the flow. What is the name of the runtime value?",
+    "options": [
+      "Data pill runtime value",
+      "Sequence runtime value",
+      "Starting runtime value",
+      "Trigger runtime value",
+      "Input runtime value"
+    ],
+    "correctAnswers": [
+      "Data pill runtime value"
+    ],
+    "multipleChoice": false
+  }
+]
